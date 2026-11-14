@@ -24,7 +24,7 @@ jobs:
           Rscript -e 'cov <- covr::package_coverage(); print(cov); covr::to_cobertura(cov, filename = "coverage.xml")'
 
       - name: Upload coverage report
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: coverage
           path: coverage.xml
