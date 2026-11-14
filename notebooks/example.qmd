@@ -1,0 +1,10 @@
+---
+title: "Example notebook"
+---
+
+## Load the package
+
+```{r}
+pkgload::load_all("..", quiet = TRUE)
+greet("Quarto")
+```

@@ -1,0 +1,18 @@
+Package: blueprintproject
+Title: Blueprint Template for R Projects
+Version: 0.1.0
+Authors@R:
+    person("Your", "Name", , "you@example.com", role = c("aut", "cre"))
+Description: Blueprint template for R projects with reproducible package
+    management, formatting, linting, testing and continuous integration.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Depends:
+    R (>= 4.4)
+Imports:
+    checkmate
+Suggests:
+    covr,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

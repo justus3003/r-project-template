@@ -1,0 +1,27 @@
+# R
+.Rhistory
+.RData
+.Rapp.history
+.Rproj.user/
+*.Rcheck/
+*.tar.gz
+*.o
+*.so
+
+# rv: do not version the library (scripts and rv.lock are versioned)
+rv/library/
+
+# Docs / coverage
+docs/
+coverage.xml
+
+# Quarto
+.quarto/
+
+# Environment and secrets
+.env
+.Renviron
+
+# Editor
+.idea/
+.DS_Store

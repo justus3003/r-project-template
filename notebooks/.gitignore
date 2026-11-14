@@ -1,0 +1,5 @@
+_output/
+*_files/
+.quarto/
+/.quarto/
+*.html

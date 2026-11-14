@@ -1,0 +1,23 @@
+[project]
+name = "blueprintproject"
+r_version = "4.5"
+
+# Order matters. For full reproducibility, use a dated snapshot instead of "latest".
+repositories = [
+    { alias = "PPM", url = "https://packagemanager.posit.co/cran/latest" },
+]
+
+dependencies = [
+    # Runtime (mirrors DESCRIPTION/Imports)
+    "checkmate",
+    # Development and tests
+    "devtools",
+    "pkgload",
+    "roxygen2",
+    "testthat",
+    "covr",
+    "pkgdown",
+    # Quarto notebooks
+    "knitr",
+    "rmarkdown",
+]
